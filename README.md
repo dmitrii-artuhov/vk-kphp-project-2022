@@ -16,23 +16,23 @@
 - `Float` (+, -) `Int` → целое число преобразуется в дробное.
 
 В качестве входных данных — только один файл, в котором пишется весь код. Разделения на функции нет. Пример кода:
-```
+```js
 var str = "Hello"; // переменная задаётся через var
 str = str + "!";   // переменные можно изменять
 print(str);        // функция print принимает один параметр
 ```
 
-```
+```js
 str = 21 + 2 + 18; // можно записать в ту же переменную число
 print(str);        // -> 42
 ```
 
-```
+```js
 val worldString = "World"; // константа задёется через val
 val answerNumber = 42;
 ```
 
-```
+```js
 print(worldString + answerNumber); // -> World42
 print(worldString - answerNumber); // -> -42
      
@@ -40,13 +40,13 @@ val pi = 3.14;
 print(pi + answerNumber); // -> 45.14
 ```
 
-```
+```js
 val numberString = "134";
 print(numberString - answerNumber); // -> 92
 print(numberString + answerNumber); // -> 13442
 ```
 
-```
+```js
 val name = input("Name: "); // выводит "Name: " и ждёт ввода
 print("Your name is " + name);
 ```
